@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+		<meta charset="utf-8"/>
+		<title>Caique.dev</title>
+		<link rel="shortcut icon" href="assets/Logo.svg"/>
+		
+		<link rel="stylesheet" href="./styles/style.css"/>
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+		
+		<script>
+			$(document).ready(function () {
+				document.getElementById("header").height = window.screen.availHeight;
+			})
+		</script>
+	</head>
+	<body>
+		<header id="header">
+			<div id="head">
+				<h1>Caique Patelli</h1> 
+				<h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+				<div class="buttons">
+					<a href="https://www.linkedin.com/in/caique-patelli-scapeline/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+					<a href="mailto:caique.scapeline@fatec.sp.gov.br" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+					<a href="https://github.com/CaiquePatelliScapeline" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+					<a href="https://github.com/CaiquePatelliScapeline/Curriculo" target="_blank"><ion-icon name="document-text-outline" target="_blank"></ion-icon></a>
+				</div>
+			
+				<a href="#about"><ion-icon id="arrow-down" name="chevron-down-outline"></ion-icon></a>
+			</div>
+			<div id="particles-js"/>
+		</header>
+		<main>
+			<div id="about" class="text">
+				<h3>Um pouco sobre mim...</h3>
+				<p>Eu sou Caique Patelli, atualmente tenho 18 anos e estou cursando o 2º semestre de Análise e Desenvolvimento de Sistemas na Fatec.</p>
+				<p>Estudo programação desde 2018, comecei com um curso profissionalizante e logo em seguida ingressei em um curso técnico de Desenvolvimento de Sistemas na Etec, para me aprofundar nesse mundo.</p>
+				<p>Desde então já realizei diversos cursos e participei de vários eventos de treinamento, como as Imersões da Alura e as NLWs da Rocketseat, onde ganhei mais conhecimento sobre as diversas stacks do mercado.</p>
+				<p>Até o momento ainda não me decidi em qual stack vou me especializar, mas atualmente o meu foco é aprender a desenvolver APIs com Node.js.</p>
+				<p>Ainda não tenho não tenho experiencia profissional e estou aberto a qualquer vaga em desenvolvimento, seja ela web, mobile ou desktop.</p>
+			</div>
+			<div id="projects">
+				<h3>Alguns projetos meus</h3>
+				<p>Se quiser olhar um pouco dos projetos que já realizei, pode acessá-los através das opções abaixo:</p>
+				<div id="projects-grid">
+					<div class="project-item">
+						<a href="https://www.figma.com/@CaiquePs" target="_blank">
+							<img src="./assets/icon-figma.svg" alt="Figma">
+							<p class="project-title"><b>Figma</b><br>Design UI/UX</p>
+						</a>
+					</div>
+					<div class="project-item">
+						<a href="https://github.com/CaiquePatelliScapeline" target="_blank">
+							<img src="./assets/icon-github.svg" alt="GitHub">
+							<p class="project-title"><b>GitHub</b><br>Aplicações</p>
+						</a>
+					</div>
+					<div class="project-item">
+						<a href="https://www.tinkercad.com/users/fjBIEKmwPew-caique-patelli-scapeline?category=circuits&sort=likes&view_mode=default" target="_blank">
+							<img src="./assets/icon-tinkercad.svg" alt="TinkerCad">
+							<p class="project-title"><b>TinkerCad</b><br>Eletrônica</p>
+						</a>
+					</div>
+					<div class="project-item">
+						<a href="https://caiqueps.itch.io/" target="_blank">
+							<img src="./assets/icon-itchio.svg" alt="Itch.io">
+							<p class="project-title"><b>Itch.io</b><br>Game Dev</p>
+						</a>
+					</div>
+					<!--<div class="project-item">
+						<a href="https://medium.com/@CaiquePatelliScapeline" target="_blank">
+							<img src="./assets/icon-medium.svg" alt="Medium">
+							<p class="project-title"><b>Medium</b><br>Artigos</p>
+						</a>
+					</div>-->
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<h4>&copy Caique Patelli</h4>
+			</div>
+			<div>
+				<h5>Contato</h5>
+				<div class="buttons">
+					<a href="https://www.linkedin.com/in/caique-patelli-scapeline/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+					<a href="mailto:caique.scapeline@fatec.sp.gov.br" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+					<a href="https://www.instagram.com/caiquepatelliescapeline/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./scripts/particles.js"></script>
+		<script src="./scripts/app.js"></script>
+		<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	</body>
+</html>
