@@ -16,27 +16,16 @@ body{
 header{
 	position: relative;
 	height: 100%;
+	width: 100%;
 	background-color: var(--cor-fundo-destaque);
 	text-align: center;
 	align-items: center;
-}
-
-#head{
-	position: absolute;
 	display: flex;
-	height: 100%;
-	width: 100%;
 	flex-direction: column;
-	text-align: center;
-	align-items: center;
-	z-index: 2;
 }
 
-#particles-js{
+.particles-js-canvas-el{
 	position: absolute;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
 }
 
 header h1{
@@ -51,21 +40,11 @@ header h2{
 	color: #C4C4C4;
 }
 
-header a{
-	margin-top: 50px;
-}
-
-#arrow-down{
-	position: relative;
-	animation-name: arrow;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-}
-
 .buttons{
 	display: grid;
 	grid-template-columns: repeat(4, 50px);
 	grid-gap: 15px;
+	z-index: 2;
 }
 
 .buttons ion-icon{
@@ -73,6 +52,18 @@ header a{
 	animation-name: none;
 	animation-duration: none;
 	animation-iteration-count: none;
+}
+
+header a{
+	margin-top: 50px;
+	z-index: 2;
+}
+
+#arrow-down{
+	position: relative;
+	animation-name: arrow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }
 
 main{
@@ -155,6 +146,10 @@ footer .buttons{
 	display: grid;
 	grid-template-columns: repeat(3, 30px);
 	grid-gap: 10px;
+}
+
+address {
+	font-style: none;
 }
 
 a{
