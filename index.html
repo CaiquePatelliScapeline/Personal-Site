@@ -23,8 +23,7 @@
 			<div class="buttons">
 				<a href="https://www.linkedin.com/in/caique-patelli-scapeline/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
 				<a href="mailto:caique.scapeline@fatec.sp.gov.br" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
-				<a href="https://github.com/CaiquePatelliScapeline" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-				<a href="https://github.com/CaiquePatelliScapeline/Curriculo" target="_blank"><ion-icon name="document-text-outline" target="_blank"></ion-icon></a>
+				<a href="https://github.com/CaiquePatelliScapeline" target="_blank"><ion-icon name="logo-github"></ion-icon></a>				
 			</div>
 		
 			<a href="#about"><ion-icon id="arrow-down" name="chevron-down-outline"></ion-icon></a>
@@ -32,7 +31,7 @@
 		<main>
 			<div id="about" class="text">
 				<h3>Um pouco sobre mim...</h3>
-				<p>Eu sou Caique Patelli, atualmente tenho 18 anos e estou cursando o 2º semestre de Análise e Desenvolvimento de Sistemas na Fatec Indaiatuba.</p>
+				<p>Eu sou Caique Patelli, atualmente tenho 18 anos e estou cursando o 3º semestre de Análise e Desenvolvimento de Sistemas na Fatec Indaiatuba.</p>
 				<p>Estudo programação desde 2018, comecei com um curso profissionalizante e logo em seguida ingressei em um curso técnico de Desenvolvimento de Sistemas na Etec, para me aprofundar nesse mundo.</p>
 				<p>Desde então já realizei diversos cursos e participei de vários eventos de treinamento, como as Imersões da Alura e as NLWs da Rocketseat, onde ganhei mais conhecimento sobre as diversas stacks do mercado.</p>
 				<p>Atualmente o meu foco é desenvolvimento de aplicações web com foco no back-end com APIs Node.js.</p>
@@ -40,11 +39,16 @@
 			</div>
 			<div id="projects">
 				<h3>Alguns projetos meus</h3>
-				<p>Se quiser olhar um pouco dos projetos que já realizei, pode acessá-los através das opções abaixo:</p>
-				<div id="pined-projects">
-
+				<div class="projects-grid">
+					<div class="project-item project-pined">
+						<a href="https://caiquepatelliscapeline.github.io/TGS" target="_blank">
+							<img src="https://raw.githubusercontent.com/CaiquePatelliScapeline/TGS/main/Readme%20assets/banner.png" alt="TGS">
+							<p class="project-title"><b>TGS</b><br>Gerenciador de Consultórios</p>
+						</a>
+					</div>
 				</div>
-				<div id="projects-grid">
+				<p>Se quiser olhar um pouco dos projetos que já realizei, pode acessá-los através das opções abaixo:</p>
+				<div class="projects-grid">
 					<div class="project-item">
 						<a href="https://www.figma.com/@CaiquePs" target="_blank">
 							<img src="./assets/icon-figma.svg" alt="Figma">
@@ -77,9 +81,10 @@
 					</div>-->
 				</div>
 			</div>
-			<div id="">
+			<div id="curriculo">
+				<h3>Curriculo</h3>
 				<div>
-					<h3>Formação</h3>
+					<h4>Formação</h4>
 					<ul>
 						<li><a href="https://etevav.com.br/new1/informatica/">ETEC Vasco Antônio Venchiarutti</a> - Técnico em Desenvolvimento de Sistemas - Concluído em 2020</li>
 						<li><a href="http://www.fatecid.com.br/site/index.php/analise-de-sistemas/">FATEC Dr. Archimedes Lammoglia</a> - Tecnólogo em Análise e Desenvolvimento de Sistemas - 3º Semestre - Finalização em 2023</li>
@@ -87,21 +92,21 @@
 				</div>
 
 				<div>
-					<h3>Conhecimentos (Nível Técnico)</h3>
-					<h2>Gerais</h2>
+					<h4>Conhecimentos (Nível Técnico)</h4>
+					<h5>Gerais</h5>
 					<ul>
 						<li>Lógica de Programação</li>
 						<li>Microsoft Office</li>
 					</ul>
 
-					<h2>Front-End</h2>
+					<h5>Front-End</h5>
 					<ul>
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>Markdown</li>
 					</ul>
 
-					<h2>Linguagens de Programação</h2>
+					<h5>Linguagens de Programação</h5>
 					<ul>
 						<li>C</li>
 						<li>C#</li>
@@ -111,36 +116,36 @@
 						<li>TypeScript</li>
 					</ul>
 
-					<h2>Frameworks Back-End</h2>
+					<h5>Frameworks Back-End</h5>
 					<ul>
 						<li>Node.js</li>
 					</ul>
 
-					<h2>Mobile</h2>
+					<h5>Mobile</h5>
 					<ul>
 						<li>Delphi</li>
 						<li>Xamarin</li>
 					</ul>
 
-					<h2>Sistemas de Controle de Versão</h2>
+					<h5>Sistemas de Controle de Versão</h5>
 					<ul>
 						<li>GIT</li>						
 					</ul>
 
-					<h2>Design</h2>
+					<h5>Design</h5>
 					<ul>
 						<li>Figma</li>
 						<li>Photoshop</li>
 					</ul>
 
-					<h2>Microcontroladores</h2>
+					<h5>Microcontroladores</h5>
 					<ul>
 						<li>Arduino</li>
 					</ul>
 				</div>
 
 				<div>
-					<h3>Cursos</h3>
+					<h4 style="margin-bottom: 8px;">Cursos</h4>
 					<ul>
 						<li>ETCOMP - Excel Básico - Concluído em 2016</li>						
 						<li>RK - Programação Desktop + Android - Concluído em 2019</li>	
@@ -157,7 +162,7 @@
 				</div>
 
 				<div>
-					<h3>Prêmios / Conquistas</h3>
+					<h4 style="margin-bottom: 8px;">Prêmios / Conquistas</h4>
 					<ul>
 						<li>OBMEP - Menção Honrosa - 2016</li>						
 						<li>OBMEP - Menção Honrosa - 2017</li>	
@@ -168,10 +173,10 @@
 		</main>
 		<footer>
 			<div>
-				<h4>&copy Caique Patelli</h4>
+				<p>&copy Caique Patelli</p>
 			</div>
 			<address>
-				<h5>Contato</h5>
+				<p>Contato</p>
 				<div class="buttons">
 					<a href="https://www.linkedin.com/in/caique-patelli-scapeline/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
 					<a href="mailto:caique.scapeline@fatec.sp.gov.br" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
